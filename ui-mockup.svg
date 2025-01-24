@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#f8f9fa"/>
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="#333">🏠 Airbnb Listing Scraper</text>
+  
+  <!-- Search Form -->
+  <rect x="40" y="100" width="600" height="50" rx="4" fill="white" stroke="#ddd"/>
+  <text x="55" y="130" font-family="Arial" font-size="14" fill="#666">Enter location...</text>
+  <rect x="660" y="100" width="100" height="50" rx="4" fill="#ff4b4b"/>
+  <text x="685" y="130" font-family="Arial" font-size="14" fill="white">Search</text>
+  
+  <!-- Results Section -->
+  <rect x="40" y="180" width="720" height="100" rx="4" fill="#e9ecef"/>
+  <text x="60" y="220" font-family="Arial" font-size="18" fill="#333">📊 Listings Overview</text>
+  
+  <!-- Data Table -->
+  <rect x="40" y="300" width="720" height="150" rx="4" fill="white" stroke="#ddd"/>
+  <line x1="40" y1="340" x2="760" y2="340" stroke="#ddd"/>
+  <text x="60" y="330" font-family="Arial" font-size="14" fill="#333">Title</text>
+  <text x="300" y="330" font-family="Arial" font-size="14" fill="#333">Price</text>
+  <text x="400" y="330" font-family="Arial" font-size="14" fill="#333">Rating</text>
+  <text x="500" y="330" font-family="Arial" font-size="14" fill="#333">Room Type</text>
+  
+  <!-- Download Buttons -->
+  <rect x="40" y="480" width="150" height="40" rx="4" fill="#28a745"/>
+  <text x="70" y="505" font-family="Arial" font-size="14" fill="white">Download CSV</text>
+  
+  <rect x="210" y="480" width="150" height="40" rx="4" fill="#17a2b8"/>
+  <text x="240" y="505" font-family="Arial" font-size="14" fill="white">Download Excel</text>
+  
+  <rect x="380" y="480" width="150" height="40" rx="4" fill="#ffc107"/>
+  <text x="410" y="505" font-family="Arial" font-size="14" fill="white">Download JSON</text>
+  
+  <!-- Analytics Cards -->
+  <rect x="40" y="540" width="160" height="40" rx="4" fill="white" stroke="#ddd"/>
+  <text x="60" y="565" font-family="Arial" font-size="14" fill="#333">Avg Price: $150</text>
+  
+  <rect x="220" y="540" width="160" height="40" rx="4" fill="white" stroke="#ddd"/>
+  <text x="240" y="565" font-family="Arial" font-size="14" fill="#333">Avg Rating: 4.5</text>
+  
+  <rect x="400" y="540" width="160" height="40" rx="4" fill="white" stroke="#ddd"/>
+  <text x="420" y="565" font-family="Arial" font-size="14" fill="#333">Total Listings: 50</text>
+</svg>
